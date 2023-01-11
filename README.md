@@ -2,10 +2,14 @@
 
 ####_A constant work in progress_
 
-To Do's:
+Requirements met:
 
-- make responsive for mobile devices
-- celebrate
+- Build a website using HTML, CSS
+- Add at least one interactive feature using JavaScript
+- Make website responsive
+- Use Git version control
+- Use the command line and file navigation
+- Develop locally on your computer
 
 ---
 
