@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
+
     <title>Zaq Reynolds' Portfolio</title>
   </head>
   <body>
-    <nav>
+    <nav class="nav">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
     <div id="home">
-      <img src="./resources/HansenDam.jpg" alt="" id="header-image" />
+      <!-- <img src="./resources/HansenDam.jpg" alt="" id="header-image" /> -->
       <h1 id="header-text">Zaq Reynolds</h1>
     </div>
     <div id="about">
+      <div class="spacer"></div>
       <h2>
         Web Developer, Record Producer, Self-proclaimed Culinary Elitist, Dog
         Dad.
@@ -32,16 +33,21 @@
 
       <div id="logos">
         <h3>Proficient in:</h3>
-        <img src="./resources/html5-logo-light.png" alt="" class="light" />
-        <img src="./resources/html5-logo-dark.png" alt="" id="dark" />
+        <img
+          src="./resources/html5-logo-light.png"
+          alt=""
+          class="light-theme"
+        />
+        <img src="./resources/html5-logo-dark.png" alt="" class="dark-theme" />
       </div>
 
       <button id="colorflip">Push?</button>
     </div>
     <div id="contact">
       <h4>Contact Me:</h4>
-      <p>Maybe Later</p>
+      <p>zaqreynolds@gmail.com</p>
     </div>
     <footer></footer>
+    <script src="index.js"></script>
   </body>
 </html>
